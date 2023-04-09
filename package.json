@@ -1,0 +1,26 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Creacion y uso de CRUD usando varias tecnologias.",
+  "main": "mongodb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongodb": "node mongodb/index.js",
+    "mongoose": "node mongoose/index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limitedbug/CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limitedbug/CRUD/issues"
+  },
+  "homepage": "https://github.com/limitedbug/CRUD#readme",
+  "dependencies": {
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.3"
+  }
+}
